@@ -21,11 +21,13 @@ p {
     font-size: 16px;
 }
 
+/* Makes any element with this class left-adjusted */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Makes any element with this class right-adjusted */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -71,6 +73,8 @@ p {
 /* ------------------------- */
 /* ---banner image---------- */
 /* ------------------------- */
+
+/* Sets background image with a large height. Used like a banner image. */
 .hero {
     height: 800px;
     width: 100%;
